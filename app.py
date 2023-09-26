@@ -97,31 +97,31 @@ def team_filter(team):
 
 def convert_to_text(month):
     if month == 0:
-          return  x = 'Ano Todo'
+          return 'Ano Todo'
     elif  month == 1:
-          return  x = 'Janeiro'
+          return 'Janeiro'
     elif  month == 2:
-          return  x = 'Fevereiro'
+          return 'Fevereiro'
     elif  month == 3:
-          return  x = 'Março'
+          return 'Março'
     elif  month == 4:
-          return  x = 'Abril'
+          return 'Abril'
     elif  month == 5:
-          return  x = 'Maio'
+          return 'Maio'
     elif  month == 6:
-          return  x = 'Junho'
+          return 'Junho'
     elif  month == 7:
-          return  x = 'Julho'
+          return 'Julho'
     elif  month == 8:
-          return  x = 'Agosto'
+          return 'Agosto'
     elif  month == 9:
-          return  x = 'Setembro'
+          return 'Setembro'
     elif  month == 10:
-          return  x = 'Outubro'
+          return 'Outubro'
     elif  month == 11:
-          return  x = 'Novembro'
+          return 'Novembro'
     elif  month == 12:
-          return  x = 'Dezembro'
+          return 'Dezembro'
     else:
     return x
 
