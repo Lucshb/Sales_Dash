@@ -96,33 +96,33 @@ def team_filter(team):
     return mask
 
 def convert_to_text(month):
-    match month:
-        case 0:
-            x = 'Ano Todo'
-        case 1:
-            x = 'Janeiro'
-        case 2:
-            x = 'Fevereiro'
-        case 3:
-            x = 'Março'
-        case 4:
-            x = 'Abril'
-        case 5:
-            x = 'Maio'
-        case 6:
-            x = 'Junho'
-        case 7:
-            x = 'Julho'
-        case 8:
-            x = 'Agosto'
-        case 9:
-            x = 'Setembro'
-        case 10:
-            x = 'Outubro'
-        case 11:
-            x = 'Novembro'
-        case 12:
-            x = 'Dezembro'
+    if month == 0:
+          return  x = 'Ano Todo'
+    elif  month == 1:
+          return  x = 'Janeiro'
+    elif  month == 2:
+          return  x = 'Fevereiro'
+    elif  month == 3:
+          return  x = 'Março'
+    elif  month == 4:
+          return  x = 'Abril'
+    elif  month == 5:
+          return  x = 'Maio'
+    elif  month == 6:
+          return  x = 'Junho'
+    elif  month == 7:
+          return  x = 'Julho'
+    elif  month == 8:
+          return  x = 'Agosto'
+    elif  month == 9:
+          return  x = 'Setembro'
+    elif  month == 10:
+          return  x = 'Outubro'
+    elif  month == 11:
+          return  x = 'Novembro'
+    elif  month == 12:
+          return  x = 'Dezembro'
+    else:
     return x
 
 
